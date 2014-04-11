@@ -15,6 +15,6 @@ public class App
         objectA.setLabel("modification for BranchA - main user indeed");
         objectA.setAmount(5.0);
         
-        System.out.println("bla bla blaaa...from first user");
+        System.out.println("bla bla blaaa...from first user - branch B");
     }
 }
