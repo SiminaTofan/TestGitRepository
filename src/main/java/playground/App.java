@@ -12,14 +12,9 @@ public class App
     public static void main( String[] args )
     {
         ClassA objectA = new ClassA("classA", 4.3);
-        objectA.setLabel("modification for BranchA - first user indeed");
+        objectA.setLabel("modification for BranchA - main user indeed");
         objectA.setAmount(5.0);
         
-        ClassB objectB = new ClassB("dfhaksdfjhas", true);
-        objectB.setNegation(false);
-        
-        System.out.println(objectA.toString());
-        objectB.setNegation(false);
         System.out.println("bla bla blaaa...from first user");
     }
 }
