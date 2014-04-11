@@ -15,7 +15,9 @@ public class App
         objectA.setLabel("modification for BranchA");
         
         ClassB objectB = new ClassB("dfhaksdfjhas", true);
+        objectB.setNegation(false);
         
         System.out.println(objectA.toString());
+        System.out.println(objectB.toString());
     }
 }
