@@ -12,8 +12,8 @@ public class App
     public static void main( String[] args )
     {
         ClassA objectA = new ClassA("classA", 4.3);
-        objectA.setLabel("modification for BranchA - second user");
-        objectA.setAmount(5.0);
+        objectA.setLabel("modification for BranchA - first user");
+        objectA.setAmount(6.0);
         
         ClassB objectB = new ClassB("dfhaksdfjhas", true);
         
